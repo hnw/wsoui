@@ -1,7 +1,6 @@
 package wsoui
 
 import (
-	"encoding/base64"
 	"errors"
 )
 
@@ -14,7 +13,7 @@ func LookUp(mac string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	oui24hash := base64.StdEncoding.EncodeToString(oui24[:])
+	oui24hash := (int32(oui24[0])*256+int32(oui24[1]))*256 + int32(oui24[2])
 	abbr, ok := oui[oui24hash]
 	if !ok {
 		return "", ErrNotFound

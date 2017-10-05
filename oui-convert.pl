@@ -15,7 +15,7 @@ my (%key, %org);
 while (<>) {
     if (/([\da-f]{2}):([\da-f]{2}):([\da-f]{2})\s+(\S{1,8})\s+/i) {
         my $macaddr = "$1:$2:$3";
-        my $key = encode_base64(pack("ccc", hex($1), hex($2), hex($3)), "");
+        my $key = (hex($1)*256+hex($2))*256+hex($3);
         my $org = unidecode($4);
         $org =~ s/[^-0-9A-Za-z]$//g;
         $org =~ s/^[^-0-9A-Za-z]//g;
@@ -28,8 +28,8 @@ while (<>) {
 }
 
 printf("package wsoui\n\n");
-printf("var oui = map[string]string{\n");
+printf("var oui = map[int32]string{\n");
 foreach my $macaddr (sort(keys %org)) {
-    printf("\t\"%s\": \"%s\",\n", $key{$macaddr}, $org{$macaddr});
+    printf("\t0x%x: \"%s\",\n", $key{$macaddr}, $org{$macaddr});
 }
 printf("}\n");
