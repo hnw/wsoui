@@ -28,8 +28,10 @@ while (<>) {
 }
 
 printf("package wsoui\n\n");
-printf("var oui = map[int32]string{\n");
+printf("var oui = map[uint32]uint64{\n");
 foreach my $macaddr (sort(keys %org)) {
-    printf("\t0x%x: \"%s\",\n", $key{$macaddr}, $org{$macaddr});
+    my $abbr = $org{$macaddr};
+    my @ASCII = unpack("N*", ("\0"x(8-length($abbr))).$abbr);
+    printf("\t0x%x: 0x%08x%08x, // %s\n", $key{$macaddr}, $ASCII[0], $ASCII[1], $abbr);
 }
 printf("}\n");

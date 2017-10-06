@@ -1,6 +1,8 @@
 package wsoui
 
 import (
+	"bytes"
+	"encoding/binary"
 	"errors"
 )
 
@@ -13,8 +15,12 @@ func LookUp(mac string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-	oui24hash := (int32(oui24[0])*256+int32(oui24[1]))*256 + int32(oui24[2])
-	abbr, ok := oui[oui24hash]
+	oui24hash := (uint32(oui24[0])*256+uint32(oui24[1]))*256 + uint32(oui24[2])
+	abbr64, ok := oui[oui24hash]
+	b := make([]byte, 8)
+	binary.BigEndian.PutUint64(b, abbr64)
+	abbr := string(bytes.TrimLeft(b, "\x00"))
+
 	if !ok {
 		return "", ErrNotFound
 	}
