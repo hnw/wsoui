@@ -16,12 +16,19 @@ while (<>) {
     if (/([\da-f]{2}):([\da-f]{2}):([\da-f]{2})\s+(\S{1,8})\s+/i) {
         my $macaddr = "$1:$2:$3";
         my $key = (hex($1)*256+hex($2))*256+hex($3);
-        my $org = unidecode($4);
+        my $orig_org = $4;
+        my $org = unidecode($orig_org);
+        if ($orig_org ne $org) {
+            printf STDERR "Converted non-ASCII value for $macaddr : '$org'\n";
+        }
         $org =~ s/[^-0-9A-Za-z]$//g;
         $org =~ s/^[^-0-9A-Za-z]//g;
         $org =~ s/[\&\/\+]/-/g;
         $org =~ s/[^-0-9A-Za-z]/_/g;
-        next if (length($org) > 8);
+        if (length($org) > 8) {
+            printf STDERR "Too long vendor name for $macaddr : '$org'\n";
+            next;
+        }
         $key{$macaddr} = $key;
         $org{$macaddr} = $org;
     }
