@@ -9,7 +9,7 @@ usage_exit() {
 
 if [[ ${TRAVIS:-} = "true" ]] ; then
     TRAVIS_BUILD_URL=https://travis-ci.org/$TRAVIS_REPO_SLUG/builds/$TRAVIS_BUILD_ID
-    GIT_COMMIT_MESSAGE="Automatically update with $TRAVIS_BUILD_URL"
+    GIT_COMMIT_MESSAGE="Automatically update by the cron job $TRAVIS_BUILD_URL"
 else
     GIT_COMMIT_MESSAGE="Automatically update"
 fi
