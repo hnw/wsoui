@@ -18,7 +18,6 @@ jobs:
     - stage: 'Test'
       script:
         - go test -v .
-        - git log --graph
     - stage: 'Update Check'
       if: type = cron
       script:
@@ -26,6 +25,6 @@ jobs:
         - curl "$WIRESHARK_MANUF_URL" > /tmp/manuf
         - scripts/oui-convert.pl /tmp/manuf > ouidata.go
         - go test -v .
-        - openssl aes-256-cbc -K $encrypted_c32425b2d492_key -iv $encrypted_c32425b2d492_iv -in id_rsa.enc -out $HOME/.ssh/id_rsa -d
-        - chmod 600 $HOME/.ssh/id_rsa
+        - openssl aes-256-cbc -K $encrypted_a58d238fde95_key -iv $encrypted_a58d238fde95_iv -in id_ed25519.enc -out $HOME/.ssh/id_ed25519 -d
+        - chmod 600 $HOME/.ssh/id_ed25519
         - scripts/push-if-updated.sh ouidata.go
