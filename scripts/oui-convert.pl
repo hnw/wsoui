@@ -24,10 +24,12 @@ while (<>) {
         $org =~ s/[^-0-9A-Za-z]$//g;
         $org =~ s/^[^-0-9A-Za-z]//g;
         $org =~ s/[\&\/\+]/-/g;
+        $org =~ s/ //g;
         $org =~ s/[^-0-9A-Za-z]/_/g;
         if (length($org) > 8) {
             printf STDERR "Too long vendor name for $macaddr : '$org'\n";
-            next;
+            $org = substr($org, 0, 8);
+            printf STDERR "Shorten the name to '$org'\n";
         }
         $key{$macaddr} = $key;
         $org{$macaddr} = $org;
