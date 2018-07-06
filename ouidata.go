@@ -15740,6 +15740,7 @@ var oui = map[uint32]uint64{
 	0x3c26d5: 0x536f746572615769, // SoteraWi
 	0x3c2763: 0x536c655175616c69, // SleQuali
 	0x3c2af4: 0x42726f7468657249, // BrotherI
+	0x3c2c94: 0x48616e675a686f75, // HangZhou
 	0x3c2c99: 0x45646765636f7265, // Edgecore
 	0x3c2db7: 0x5465786173496e73, // TexasIns
 	0x3c2ef9: 0x0000004170706c65, // Apple
