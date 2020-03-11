@@ -5,7 +5,7 @@ wsoui: The OUI database for Go [![Build Status](https://travis-ci.org/hnw/wsoui.
 
 `wsoui` is a Go library which provides the vendor name lookup from MAC address.
 
-This file was auto-generated from [Wireshark manufacturer database](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=blob_plain;f=manuf), so you should follow original license.
+This file was auto-generated from [Wireshark manufacturer database](https://gitlab.com/wireshark/wireshark/raw/master/manuf), so you should follow original license (GPL).
 
 ## features
 
@@ -34,6 +34,3 @@ func main() {
 	fmt.Print(abbr) // Apple
 }
 ```
-
-## License
-

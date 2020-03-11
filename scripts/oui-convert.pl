@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 #
 # usage:
-#   curl 'https://code.wireshark.org/review/gitweb?p=wireshark.git;a=blob_plain;f=manuf;hb=HEAD' > manuf
+#   curl https://gitlab.com/wireshark/wireshark/raw/master/manuf > manuf
 #   ./oui-convert.pl manuf > ouidata.go
 #
 

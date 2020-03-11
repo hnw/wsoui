@@ -1,6 +1,8 @@
 wsoui: The OUI database for Go [![Build Status](https://travis-ci.org/hnw/wsoui.svg?branch=master)](https://travis-ci.org/hnw/wsoui)
 =====================
 
+[English version](./README-en.md)
+
 ## 説明
 
 `wsoui` はMACアドレスからベンダー名を検索するGo製のライブラリです。
@@ -9,7 +11,7 @@ MACアドレスの先頭三桁はOUI (Organizationally Unique Identifier) と呼
 
 本ライブラリではOUIのデータをGoのmapとして持ち、検索用の関数から利用しています。
 
-OUIの元データとしては、WireSharkが加工して配布している[Wireshark manufacturer database](https://code.wireshark.org/review/gitweb?p=wireshark.git;a=blob_plain;f=manuf)を利用しています。
+OUIの元データとしては、WireSharkが加工して配布している[Wireshark manufacturer database](https://gitlab.com/wireshark/wireshark/raw/master/manuf)を利用しています。
 
 ## 特徴
 
