@@ -11667,6 +11667,7 @@ var oui = map[uint32]uint64{
 	0x90ff: 0x54656c6c75735465, // TellusTe
 	0x91d6: 0x4372797374616c47, // CrystalG
 	0x91fa: 0x53796e6170736550, // SynapseP
+	0x927d: 0x4669636f7361496e, // FicosaIn
 	0x92fa: 0x5368656e7a68656e, // Shenzhen
 	0x9363: 0x556e692d4c696e6b, // Uni-Link
 	0x94a1: 0x46354e6574776f72, // F5Networ
@@ -12973,6 +12974,7 @@ var oui = map[uint32]uint64{
 	0x440a9: 0x4e65774833435465, // NewH3CTe
 	0x44169: 0x000000476f50726f, // GoPro
 	0x444a1: 0x54656c65636f6e47, // TeleconG
+	0x44562: 0x414e44524153707a, // ANDRASpz
 	0x445a1: 0x4e495249542d5869, // NIRIT-Xi
 	0x44665: 0x4d75726174614d61, // MurataMa
 	0x4489a: 0x0000004170706c65, // Apple
@@ -14243,7 +14245,12 @@ var oui = map[uint32]uint64{
 	0x14feaf: 0x5361676974746172, // Sagittar
 	0x14feb5: 0x0000000044656c6c, // Dell
 	0x18002d: 0x536f6e794d6f6269, // SonyMobi
+	0x180036: 0x0000000000474d54, // GMT
+	0x180047: 0x0000000000474d54, // GMT
+	0x180054: 0x0000000000474d54, // GMT
 	0x1800db: 0x0000466974626974, // Fitbit
+	0x180110: 0x0000000000474d54, // GMT
+	0x180117: 0x0000000000474d54, // GMT
 	0x18017d: 0x48617262696e4172, // HarbinAr
 	0x1801e3: 0x4269747469756d57, // BittiumW
 	0x1801f1: 0x5869616f6d69436f, // XiaomiCo
@@ -14470,6 +14477,7 @@ var oui = map[uint32]uint64{
 	0x18d225: 0x4669626572686f6d, // Fiberhom
 	0x18d276: 0x4875617765695465, // HuaweiTe
 	0x18d5b6: 0x534d47486f6c6469, // SMGHoldi
+	0x18d61c: 0x5368656e7a68656e, // Shenzhen
 	0x18d66a: 0x496e6d6172736174, // Inmarsat
 	0x18d6c7: 0x54702d4c696e6b54, // Tp-LinkT
 	0x18d6cf: 0x4b75727468456c65, // KurthEle
@@ -14515,6 +14523,7 @@ var oui = map[uint32]uint64{
 	0x1a75fb: 0x004175746f736172, // Autosar
 	0x1abbfb: 0x554844416c6c6961, // UHDAllia
 	0x1c0042: 0x4e41524954656368, // NARITech
+	0x1c012d: 0x4669636572546563, // FicerTec
 	0x1c0219: 0x4775616e67646f6e, // Guangdon
 	0x1c05b7: 0x43686f6e6771696e, // Chongqin
 	0x1c0656: 0x0000000000494459, // IDY
@@ -16554,6 +16563,7 @@ var oui = map[uint32]uint64{
 	0x3ca348: 0x7669766f4d6f6269, // vivoMobi
 	0x3ca581: 0x7669766f4d6f6269, // vivoMobi
 	0x3ca616: 0x7669766f4d6f6269, // vivoMobi
+	0x3ca62f: 0x41564d417564696f, // AVMAudio
 	0x3ca72b: 0x4d5256436f6d6d75, // MRVCommu
 	0x3ca82a: 0x4865776c65747450, // HewlettP
 	0x3ca9f4: 0x496e74656c436f72, // IntelCor
@@ -16882,6 +16892,7 @@ var oui = map[uint32]uint64{
 	0x441319: 0x576b6b546563686e, // WkkTechn
 	0x4413d0: 0x00000000007a7465, // zte
 	0x441441: 0x417564696f436f6e, // AudioCon
+	0x441622: 0x4d6963726f736f66, // Microsof
 	0x441847: 0x48756e616e536372, // HunanScr
 	0x44184f: 0x0046697476696577, // Fitview
 	0x4418fd: 0x0000004170706c65, // Apple
@@ -18780,6 +18791,7 @@ var oui = map[uint32]uint64{
 	0x643409: 0x4249547761766550, // BITwaveP
 	0x64351c: 0x652d434f4e494e44, // e-CONIND
 	0x643ab1: 0x5369636875616e54, // SichuanT
+	0x643aea: 0x000000436973636f, // Cisco
 	0x643e8c: 0x4875617765695465, // HuaweiTe
 	0x643f5f: 0x457861626c617a65, // Exablaze
 	0x644214: 0x5377697373636f6d, // Swisscom
@@ -21822,6 +21834,7 @@ var oui = map[uint32]uint64{
 	0x94acca: 0x74726976756d7465, // trivumte
 	0x94ae61: 0x416c636174656c4c, // AlcatelL
 	0x94aee3: 0x42656c64656e4869, // BeldenHi
+	0x94aef0: 0x000000436973636f, // Cisco
 	0x94b01f: 0x0000004170706c65, // Apple
 	0x94b10a: 0x53616d73756e6745, // SamsungE
 	0x94b2cc: 0x0050696f6e656572, // Pioneer
@@ -24061,6 +24074,7 @@ var oui = map[uint32]uint64{
 	0xbaf21c: 0x49736f2d54633232, // Iso-Tc22
 	0xbc0200: 0x5374657761727441, // StewartA
 	0xbc024a: 0x484d44476c6f6261, // HMDGloba
+	0xbc03a7: 0x4d66704d69636865, // MfpMiche
 	0xbc0543: 0x000000000041564d, // AVM
 	0xbc0963: 0x0000004170706c65, // Apple
 	0xbc0da5: 0x5465786173496e73, // TexasIns
@@ -25195,6 +25209,7 @@ var oui = map[uint32]uint64{
 	0xccd8c1: 0x000000436973636f, // Cisco
 	0xccd9ac: 0x496e74656c436f72, // IntelCor
 	0xccd9e9: 0x534352456e67696e, // SCREngin
+	0xccdb93: 0x000000436973636f, // Cisco
 	0xccdc55: 0x447261676f6e6368, // Dragonch
 	0xcce0c3: 0x455854454e546563, // EXTENTec
 	0xcce17f: 0x4a756e697065724e, // JuniperN
@@ -26440,6 +26455,7 @@ var oui = map[uint32]uint64{
 	0xe41d2d: 0x4d656c6c616e6f78, // Mellanox
 	0xe41e0a: 0x4945454552656769, // IEEERegi
 	0xe41f13: 0x000000000049424d, // IBM
+	0xe41f7b: 0x000000436973636f, // Cisco
 	0xe41fe9: 0x44756e6b65726d6f, // Dunkermo
 	0xe422a5: 0x506c616e74726f6e, // Plantron
 	0xe42354: 0x5368656e7a68656e, // Shenzhen
