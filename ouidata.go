@@ -12021,6 +12021,7 @@ var oui = map[uint32]uint64{
 	0xb78d: 0x4e616e6a696e6753, // NanjingS
 	0xb7a8: 0x4865696e7a696e67, // Heinzing
 	0xb810: 0x5969636869704d69, // YichipMi
+	0xb881: 0x4e6577706c617466, // Newplatf
 	0xb8b3: 0x000000436973636f, // Cisco
 	0xb8b6: 0x4d6f746f726f6c61, // Motorola
 	0xb8c2: 0x4865696768747354, // HeightsT
@@ -13326,9 +13327,10 @@ var oui = map[uint32]uint64{
 	0x8008e: 0x54616e64656d2d53, // Tandem-S
 	0x8008f: 0x0043686970636f6d, // Chipcom
 	0x80090: 0x0000536f6e6f6d61, // Sonoma
+	0x80101: 0x0000000000474d54, // GMT
 	0x8010f: 0x5369636875616e54, // SichuanT
-	0x80110: 0x0000000000474d54, // GMT
 	0x80118: 0x0000000000474d54, // GMT
+	0x80126: 0x0000000000474d54, // GMT
 	0x8028e: 0x004e657467656172, // Netgear
 	0x80342: 0x50616c6f416c746f, // PaloAlto
 	0x80371: 0x4b7267436f72706f, // KrgCorpo
@@ -13445,6 +13447,7 @@ var oui = map[uint32]uint64{
 	0x87999: 0x000000000041494d, // AIM
 	0x87a4c: 0x4875617765695465, // HuaweiTe
 	0x87baa: 0x537679617a6b6f6d, // Svyazkom
+	0x87c39: 0x416d617a6f6e5465, // AmazonTe
 	0x87cbe: 0x005175696e746963, // Quintic
 	0x87d21: 0x416c746173656374, // Altasect
 	0x87e64: 0x546563686e69636f, // Technico
@@ -13961,6 +13964,7 @@ var oui = map[uint32]uint64{
 	0x109ab9: 0x00546f7369626f78, // Tosibox
 	0x109add: 0x0000004170706c65, // Apple
 	0x109c70: 0x5072757361526573, // PrusaRes
+	0x109d7a: 0x4875617765694465, // HuaweiDe
 	0x109e3a: 0x5a68656a69616e67, // Zhejiang
 	0x109fa9: 0x416374696f6e7465, // Actionte
 	0x10a13b: 0x46756a696b757261, // Fujikura
@@ -14074,6 +14078,7 @@ var oui = map[uint32]uint64{
 	0x141114: 0x5465636e6f4d6f62, // TecnoMob
 	0x14115d: 0x536b79776f727468, // Skyworth
 	0x141330: 0x416e616b72656f6e, // Anakreon
+	0x141333: 0x417a757265576176, // AzureWav
 	0x141346: 0x536b79776f727468, // Skyworth
 	0x141357: 0x415450456c656374, // ATPElect
 	0x1413fb: 0x4875617765695465, // HuaweiTe
@@ -14360,6 +14365,7 @@ var oui = map[uint32]uint64{
 	0x18422f: 0x416c636174656c4c, // AlcatelL
 	0x184462: 0x52696176614e6574, // RiavaNet
 	0x1844e6: 0x00000000007a7465, // zte
+	0x184516: 0x5465786173496e73, // TexasIns
 	0x184593: 0x54616963616e6754, // TaicangT
 	0x184617: 0x53616d73756e6745, // SamsungE
 	0x184644: 0x486f6d65436f6e74, // HomeCont
@@ -14605,6 +14611,7 @@ var oui = map[uint32]uint64{
 	0x1c28af: 0x4172756261614865, // ArubaaHe
 	0x1c2aa3: 0x5368656e7a68656e, // Shenzhen
 	0x1c2e1b: 0x53757a686f755472, // SuzhouTr
+	0x1c3008: 0x4875695a686f7547, // HuiZhouG
 	0x1c330e: 0x5065726e69784461, // PernixDa
 	0x1c334d: 0x49545354656c6563, // ITSTelec
 	0x1c3477: 0x496e6e6f76617469, // Innovati
@@ -14632,6 +14639,7 @@ var oui = map[uint32]uint64{
 	0x1c4419: 0x54702d4c696e6b54, // Tp-LinkT
 	0x1c4455: 0x536965624d657965, // SiebMeye
 	0x1c4593: 0x5465786173496e73, // TexasIns
+	0x1c45c2: 0x4875697a686f7543, // HuizhouC
 	0x1c4840: 0x494d534d65737373, // IMSMesss
 	0x1c48ce: 0x4775616e67646f6e, // Guangdon
 	0x1c48f9: 0x474e4e6574636f6d, // GNNetcom
@@ -14995,6 +15003,7 @@ var oui = map[uint32]uint64{
 	0x20dbab: 0x53616d73756e6745, // SamsungE
 	0x20dc93: 0x4368656574616848, // CheetahH
 	0x20dce6: 0x54702d4c696e6b54, // Tp-LinkT
+	0x20dcfd: 0x4875617765694465, // HuaweiDe
 	0x20de88: 0x49435265616c7469, // ICRealti
 	0x20df3f: 0x4e616e6a696e6753, // NanjingS
 	0x20dfb9: 0x0000476f6f676c65, // Google
@@ -15029,6 +15038,7 @@ var oui = map[uint32]uint64{
 	0x20fedb: 0x4d324d536f6c7574, // M2MSolut
 	0x2400ba: 0x4875617765695465, // HuaweiTe
 	0x2400fa: 0x4368696e614d6f62, // ChinaMob
+	0x24016f: 0x4875617765694465, // HuaweiDe
 	0x2401c7: 0x000000436973636f, // Cisco
 	0x24050f: 0x4d544e456c656374, // MTNElect
 	0x240588: 0x0000476f6f676c65, // Google
@@ -15467,6 +15477,7 @@ var oui = map[uint32]uint64{
 	0x28e347: 0x4c6974656f6e5465, // LiteonTe
 	0x28e34e: 0x4875617765695465, // HuaweiTe
 	0x28e476: 0x50692d436f72616c, // Pi-Coral
+	0x28e5b0: 0x4875617765695465, // HuaweiTe
 	0x28e608: 0x00546f6b6865696d, // Tokheim
 	0x28e6e9: 0x534953536174496e, // SISSatIn
 	0x28e794: 0x4d6963726f74696d, // Microtim
@@ -16712,6 +16723,7 @@ var oui = map[uint32]uint64{
 	0x3cdf1e: 0x000000436973636f, // Cisco
 	0x3cdfa9: 0x415252495347726f, // ARRISGro
 	0x3cdfbd: 0x4875617765695465, // HuaweiTe
+	0x3ce038: 0x506c756d65726961, // Plumeria
 	0x3ce072: 0x0000004170706c65, // Apple
 	0x3ce1a1: 0x556e697665727361, // Universa
 	0x3ce3e7: 0x4368696e614d6f62, // ChinaMob
@@ -16758,6 +16770,7 @@ var oui = map[uint32]uint64{
 	0x4011dc: 0x00536f6e616e6365, // Sonance
 	0x4012e4: 0x436f6d706173732d, // Compass-
 	0x4013d9: 0x476c6f62616c4553, // GlobalES
+	0x4014ad: 0x4875617765694465, // HuaweiDe
 	0x401597: 0x50726f7465637441, // ProtectA
 	0x40163b: 0x53616d73756e6745, // SamsungE
 	0x40167e: 0x4153555354656b43, // ASUSTekC
@@ -16897,6 +16910,7 @@ var oui = map[uint32]uint64{
 	0x40a6e8: 0x000000436973636f, // Cisco
 	0x40a8f0: 0x4865776c65747450, // HewlettP
 	0x40a93f: 0x5069766f74616c43, // PivotalC
+	0x40a9cf: 0x416d617a6f6e5465, // AmazonTe
 	0x40aa56: 0x4368696e61447261, // ChinaDra
 	0x40ac8d: 0x446174614d616e61, // DataMana
 	0x40b034: 0x4865776c65747450, // HewlettP
@@ -17481,6 +17495,7 @@ var oui = map[uint32]uint64{
 	0x4ae03f: 0x4368656e67647553, // ChengduS
 	0x4c0082: 0x000000436973636f, // Cisco
 	0x4c0143: 0x000000006565726f, // eero
+	0x4c0220: 0x5869616f6d69436f, // XiaomiCo
 	0x4c022e: 0x436d724b6f726561, // CmrKorea
 	0x4c0289: 0x4c6578436f6d7075, // LexCompu
 	0x4c068a: 0x4261736c6572456c, // BaslerEl
@@ -17537,6 +17552,7 @@ var oui = map[uint32]uint64{
 	0x4c3909: 0x48504c456c656374, // HPLElect
 	0x4c3910: 0x4e657774656b456c, // NewtekEl
 	0x4c3b74: 0x564f47544543484b, // VOGTECHK
+	0x4c3bdf: 0x4d6963726f736f66, // Microsof
 	0x4c3c16: 0x53616d73756e6745, // SamsungE
 	0x4c3fd3: 0x5465786173496e73, // TexasIns
 	0x4c4088: 0x53616e7368696e45, // SanshinE
@@ -18461,7 +18477,7 @@ var oui = map[uint32]uint64{
 	0x5c3327: 0x5370617a696f4974, // SpazioIt
 	0x5c335c: 0x537769737370686f, // Swisspho
 	0x5c338e: 0x416c7068614e6574, // AlphaNet
-	0x5c3400: 0x486973656e736556, // HisenseV
+	0x5c3400: 0x486973656e736545, // HisenseE
 	0x5c353b: 0x436f6d70616c4272, // CompalBr
 	0x5c35da: 0x0000005468657265, // There
 	0x5c36b8: 0x54434c4b696e6745, // TCLKingE
@@ -19056,6 +19072,7 @@ var oui = map[uint32]uint64{
 	0x649ef3: 0x000000436973636f, // Cisco
 	0x649ff7: 0x000000004b6f6e65, // Kone
 	0x64a0e7: 0x000000436973636f, // Cisco
+	0x64a200: 0x5869616f6d69436f, // XiaomiCo
 	0x64a232: 0x53616d6c69676874, // Samlight
 	0x64a2f9: 0x4f6e65506c757354, // OnePlusT
 	0x64a341: 0x576f6e6465726c61, // Wonderla
@@ -19681,6 +19698,7 @@ var oui = map[uint32]uint64{
 	0x7038b4: 0x4c6f775465636853, // LowTechS
 	0x7038ee: 0x0000004176617961, // Avaya
 	0x703a0e: 0x4172756261614865, // ArubaaHe
+	0x703a2d: 0x5368656e7a68656e, // Shenzhen
 	0x703a51: 0x5869616f6d69436f, // XiaomiCo
 	0x703a73: 0x5368656e7a68656e, // Shenzhen
 	0x703aa6: 0x4e65774833435465, // NewH3CTe
@@ -20160,6 +20178,7 @@ var oui = map[uint32]uint64{
 	0x7804e3: 0x4875617765694465, // HuaweiDe
 	0x780541: 0x517565636c696e6b, // Queclink
 	0x78055f: 0x5368656e7a68656e, // Shenzhen
+	0x78058c: 0x6d4d6178436f6d6d, // mMaxComm
 	0x780738: 0x5a554b456c7a6162, // ZUKElzab
 	0x780ac7: 0x42616f66656e6754, // BaofengT
 	0x780cb8: 0x496e74656c436f72, // IntelCor
@@ -20221,6 +20240,7 @@ var oui = map[uint32]uint64{
 	0x784501: 0x0000004269616d70, // Biamp
 	0x784558: 0x5562697175697469, // Ubiquiti
 	0x784561: 0x437962657254414e, // CyberTAN
+	0x7845b3: 0x4875617765694465, // HuaweiDe
 	0x7845c4: 0x0000000044656c6c, // Dell
 	0x7846c4: 0x4461656861704879, // DaehapHy
 	0x7846d4: 0x53616d73756e6745, // SamsungE
@@ -20930,6 +20950,7 @@ var oui = map[uint32]uint64{
 	0x80f25e: 0x00004b79796e656c, // Kyynel
 	0x80f503: 0x415252495347726f, // ARRISGro
 	0x80f593: 0x4952434f53697374, // IRCOSist
+	0x80f5b5: 0x5465786173496e73, // TexasIns
 	0x80f62e: 0x48616e677a686f75, // Hangzhou
 	0x80f8eb: 0x5261795469676874, // RayTight
 	0x80fa5b: 0x000000436c65766f, // Clevo
@@ -21081,6 +21102,7 @@ var oui = map[uint32]uint64{
 	0x849a40: 0x48616e677a686f75, // Hangzhou
 	0x849ca6: 0x417263616479616e, // Arcadyan
 	0x849d64: 0x0000000000534d43, // SMC
+	0x849dc2: 0x5368616e67686169, // Shanghai
 	0x849dc5: 0x43656e7465726150, // CenteraP
 	0x849fb5: 0x4875617765695465, // HuaweiTe
 	0x84a06e: 0x536167656d636f6d, // Sagemcom
@@ -21131,6 +21153,7 @@ var oui = map[uint32]uint64{
 	0x84c8b1: 0x496e636f676e6974, // Incognit
 	0x84c9b2: 0x442d4c696e6b496e, // D-LinkIn
 	0x84c9c6: 0x5368656e7a68656e, // Shenzhen
+	0x84cc63: 0x4875617765694465, // HuaweiDe
 	0x84cca8: 0x4573707265737369, // Espressi
 	0x84cd62: 0x5368656e5a68656e, // ShenZhen
 	0x84cfbf: 0x4661697270686f6e, // Fairphon
@@ -21308,6 +21331,7 @@ var oui = map[uint32]uint64{
 	0x888717: 0x00000043616e6f6e, // Canon
 	0x8887dd: 0x4461726265655669, // DarbeeVi
 	0x888914: 0x416c6c436f6d706f, // AllCompo
+	0x88892f: 0x4875617765695465, // HuaweiTe
 	0x888964: 0x475349456c656374, // GSIElect
 	0x888b5d: 0x53746f7261676541, // StorageA
 	0x888c19: 0x4272616479417369, // BradyAsi
@@ -21815,6 +21839,7 @@ var oui = map[uint32]uint64{
 	0x907e30: 0x000000004c617273, // Lars
 	0x907eba: 0x5574656b54656368, // UtekTech
 	0x907f61: 0x436869636f6e7945, // ChiconyE
+	0x90808f: 0x4875617765694465, // HuaweiDe
 	0x90812a: 0x0000004170706c65, // Apple
 	0x908158: 0x0000004170706c65, // Apple
 	0x908260: 0x4945454531393034, // IEEE1904
@@ -22094,6 +22119,7 @@ var oui = map[uint32]uint64{
 	0x94aef0: 0x000000436973636f, // Cisco
 	0x94b01f: 0x0000004170706c65, // Apple
 	0x94b10a: 0x53616d73756e6745, // SamsungE
+	0x94b271: 0x4875617765695465, // HuaweiTe
 	0x94b2cc: 0x0050696f6e656572, // Pioneer
 	0x94b40f: 0x4172756261614865, // ArubaaHe
 	0x94b819: 0x0000004e6f6b6961, // Nokia
@@ -22206,6 +22232,7 @@ var oui = map[uint32]uint64{
 	0x9803a0: 0x414242506f776572, // ABBPower
 	0x9803d8: 0x0000004170706c65, // Apple
 	0x980637: 0x4945454552656769, // IEEERegi
+	0x98063a: 0x486f6d65436f6e74, // HomeCont
 	0x98063c: 0x53616d73756e6745, // SamsungE
 	0x98072d: 0x5465786173496e73, // TexasIns
 	0x9809cf: 0x4f6e65506c757354, // OnePlusT
@@ -22942,6 +22969,7 @@ var oui = map[uint32]uint64{
 	0xa41588: 0x415252495347726f, // ARRISGro
 	0xa416e7: 0x4875617765695465, // HuaweiTe
 	0xa41731: 0x486f6e4861695072, // HonHaiPr
+	0xa4178b: 0x4875617765695465, // HuaweiTe
 	0xa41791: 0x5368656e7a68656e, // Shenzhen
 	0xa41875: 0x000000436973636f, // Cisco
 	0xa41908: 0x4669626572686f6d, // Fiberhom
@@ -23412,6 +23440,7 @@ var oui = map[uint32]uint64{
 	0xac0dfe: 0x456b6f6e2d6d7947, // Ekon-myG
 	0xac11d3: 0x53757a686f75484f, // SuzhouHO
 	0xac1203: 0x496e74656c436f72, // IntelCor
+	0xac122f: 0x46616e7461736961, // Fantasia
 	0xac1461: 0x0000000041544157, // ATAW
 	0xac14d2: 0x000077692d646171, // wi-daq
 	0xac1585: 0x0073696c65726779, // silergy
@@ -23508,6 +23537,7 @@ var oui = map[uint32]uint64{
 	0xac675d: 0x496e74656c436f72, // IntelCor
 	0xac676f: 0x456c656374726f63, // Electroc
 	0xac67b2: 0x4573707265737369, // Espressi
+	0xac6aa3: 0x5368656e7a68656e, // Shenzhen
 	0xac6b0f: 0x436164656e636544, // CadenceD
 	0xac6bac: 0x4a656e6e79536369, // JennySci
 	0xac6e1a: 0x5368656e7a68656e, // Shenzhen
@@ -23615,6 +23645,7 @@ var oui = map[uint32]uint64{
 	0xacd9d6: 0x0000000000746369, // tci
 	0xacdb48: 0x415252495347726f, // ARRISGro
 	0xacdbda: 0x5368656e7a68656e, // Shenzhen
+	0xacdcca: 0x4875617765695465, // HuaweiTe
 	0xacdce5: 0x50726f6374657247, // ProcterG
 	0xacde48: 0x0050726976617465, // Private
 	0xace010: 0x4c6974656f6e5465, // LiteonTe
@@ -23784,6 +23815,7 @@ var oui = map[uint32]uint64{
 	0xb0973a: 0x0000452d4675656c, // E-Fuel
 	0xb0982b: 0x536167656d636f6d, // Sagemcom
 	0xb0989f: 0x0000004c67436e73, // LgCns
+	0xb098bc: 0x4875617765694465, // HuaweiDe
 	0xb09928: 0x0046756a69747375, // Fujitsu
 	0xb09ae2: 0x5354454d4d455249, // STEMMERI
 	0xb09bd4: 0x474e48536f667477, // GNHSoftw
@@ -24204,6 +24236,7 @@ var oui = map[uint32]uint64{
 	0xb85d0a: 0x0000004170706c65, // Apple
 	0xb85e7b: 0x53616d73756e6745, // SamsungE
 	0xb85f98: 0x416d617a6f6e5465, // AmazonTe
+	0xb85fb0: 0x4875617765695465, // HuaweiTe
 	0xb86091: 0x4f6e6e6574546563, // OnnetTec
 	0xb86142: 0x4265696a696e6754, // BeijingT
 	0xb8616f: 0x416363746f6e5465, // AcctonTe
@@ -24674,6 +24707,7 @@ var oui = map[uint32]uint64{
 	0xc03937: 0x47726565456c6563, // GreeElec
 	0xc0395a: 0x5a68656a69616e67, // Zhejiang
 	0xc03b8f: 0x4d696e69636f6d44, // MinicomD
+	0xc03c59: 0x496e74656c436f72, // IntelCor
 	0xc03d03: 0x53616d73756e6745, // SamsungE
 	0xc03d46: 0x5368616e67686169, // Shanghai
 	0xc03dd9: 0x4d69747261537461, // MitraSta
@@ -24717,6 +24751,7 @@ var oui = map[uint32]uint64{
 	0xc07009: 0x4875617765695465, // HuaweiTe
 	0xc0742b: 0x5368656e7a68656e, // Shenzhen
 	0xc074ad: 0x4772616e64737472, // Grandstr
+	0xc07831: 0x4875617765694465, // HuaweiDe
 	0xc07878: 0x466c657874726f6e, // Flextron
 	0xc07bbc: 0x000000436973636f, // Cisco
 	0xc07cd1: 0x5065676174726f6e, // Pegatron
@@ -25018,6 +25053,7 @@ var oui = map[uint32]uint64{
 	0xc4a151: 0x5369636875616e54, // SichuanT
 	0xc4a366: 0x00000000007a7465, // zte
 	0xc4a402: 0x4875617765695465, // HuaweiTe
+	0xc4a72b: 0x5368656e7a68656e, // Shenzhen
 	0xc4a81d: 0x442d4c696e6b496e, // D-LinkIn
 	0xc4aaa1: 0x53554d4d49544445, // SUMMITDE
 	0xc4abb2: 0x7669766f4d6f6269, // vivoMobi
@@ -25086,6 +25122,7 @@ var oui = map[uint32]uint64{
 	0xc4f5a5: 0x4b756d616c696674, // Kumalift
 	0xc4f7d5: 0x000000436973636f, // Cisco
 	0xc4f839: 0x4163746961417574, // ActiaAut
+	0xc4fbaa: 0x4875617765695465, // HuaweiTe
 	0xc4fce4: 0x4469736854564e5a, // DishTVNZ
 	0xc4fde6: 0x0000447274656368, // Drtech
 	0xc4fe5b: 0x4775616e67646f6e, // Guangdon
@@ -25252,6 +25289,7 @@ var oui = map[uint32]uint64{
 	0xc8b422: 0x41736b6579436f6d, // AskeyCom
 	0xc8b5ad: 0x4865776c65747450, // HewlettP
 	0xc8b5b7: 0x0000004170706c65, // Apple
+	0xc8b6d3: 0x4875617765695465, // HuaweiTe
 	0xc8ba94: 0x53616d73756e6745, // SamsungE
 	0xc8bae9: 0x0000000051646973, // Qdis
 	0xc8bbd3: 0x00456d6272616e65, // Embrane
@@ -25579,6 +25617,7 @@ var oui = map[uint32]uint64{
 	0xccf407: 0x45756b726561456c, // EukreaEl
 	0xccf411: 0x0000476f6f676c65, // Google
 	0xccf538: 0x33697379736e6574, // 3isysnet
+	0xccf55f: 0x45466f637573496e, // EFocusIn
 	0xccf67a: 0x417965636b61436f, // AyeckaCo
 	0xccf735: 0x416d617a6f6e5465, // AmazonTe
 	0xccf841: 0x4c756d6577617665, // Lumewave
@@ -25621,6 +25660,7 @@ var oui = map[uint32]uint64{
 	0xd01aa7: 0x556e695072696e74, // UniPrint
 	0xd01c3c: 0x5465636e6f4d6f62, // TecnoMob
 	0xd01cbb: 0x4265696a696e6743, // BeijingC
+	0xd021ac: 0x0000596f4c616273, // YoLabs
 	0xd021f9: 0x5562697175697469, // Ubiquiti
 	0xd02212: 0x4945454552656769, // IEEERegi
 	0xd022be: 0x53616d73756e6745, // SamsungE
@@ -25633,6 +25673,7 @@ var oui = map[uint32]uint64{
 	0xd02b20: 0x0000004170706c65, // Apple
 	0xd02c45: 0x6c6974746c654269, // littleBi
 	0xd02db3: 0x4875617765695465, // HuaweiTe
+	0xd02eab: 0x5465786173496e73, // TexasIns
 	0xd03110: 0x496e67656e696353, // IngenicS
 	0xd03169: 0x53616d73756e6745, // SamsungE
 	0xd03311: 0x0000004170706c65, // Apple
@@ -25766,6 +25807,7 @@ var oui = map[uint32]uint64{
 	0xd0c193: 0x00536b7962656c6c, // Skybell
 	0xd0c1b1: 0x53616d73756e6745, // SamsungE
 	0xd0c282: 0x000000436973636f, // Cisco
+	0xd0c31e: 0x4a554e474a494e45, // JUNGJINE
 	0xd0c42f: 0x54616d6167617761, // Tamagawa
 	0xd0c5d3: 0x417a757265576176, // AzureWav
 	0xd0c5d8: 0x4c617465636f6572, // Latecoer
@@ -25837,6 +25879,7 @@ var oui = map[uint32]uint64{
 	0xd4136f: 0x4173696150616369, // AsiaPaci
 	0xd41a3f: 0x4775616e67646f6e, // Guangdon
 	0xd41ac8: 0x4e6970706f6e5072, // NipponPr
+	0xd41b81: 0x43686f6e6771696e, // Chongqin
 	0xd41c1c: 0x0000000000526366, // Rcf
 	0xd41d71: 0x50616c6f416c746f, // PaloAlto
 	0xd41e35: 0x544f484f456c6563, // TOHOElec
@@ -25955,6 +25998,7 @@ var oui = map[uint32]uint64{
 	0xd47bb0: 0x41736b6579436f6d, // AskeyCom
 	0xd47c44: 0x4945454552656769, // IEEERegi
 	0xd47dfc: 0x5465636e6f4d6f62, // TecnoMob
+	0xd47ee4: 0x4368696e614d6f62, // ChinaMob
 	0xd481ca: 0x6944657669636573, // iDevices
 	0xd481d7: 0x0000000044656c6c, // Dell
 	0xd4823e: 0x4172676f73795465, // ArgosyTe
@@ -25970,6 +26014,7 @@ var oui = map[uint32]uint64{
 	0xd48faa: 0x536f676563616d49, // SogecamI
 	0xd4909c: 0x0000004170706c65, // Apple
 	0xd490e0: 0x546f70636f6e456c, // TopconEl
+	0xd4910f: 0x416d617a6f6e5465, // AmazonTe
 	0xd491af: 0x456c656374726f61, // Electroa
 	0xd49234: 0x00000000004e4543, // NEC
 	0xd49398: 0x0000004e6f6b6961, // Nokia
@@ -26440,6 +26485,7 @@ var oui = map[uint32]uint64{
 	0xdc58bc: 0x54686f6d61732d4b, // Thomas-K
 	0xdc5e36: 0x5061746572736f6e, // Paterson
 	0xdc60a1: 0x54656c6564796e65, // Teledyne
+	0xdc6373: 0x4f626172614b6f72, // ObaraKor
 	0xdc647c: 0x43525369694d6f74, // CRSiiMot
 	0xdc64b8: 0x5368656e7a68656e, // Shenzhen
 	0xdc663a: 0x4170616365725465, // ApacerTe
@@ -26654,6 +26700,7 @@ var oui = map[uint32]uint64{
 	0xe048d3: 0x4d6f626977697265, // Mobiwire
 	0xe049ed: 0x0000417564657a65, // Audeze
 	0xe04b45: 0x48692d50456c6563, // Hi-PElec
+	0xe04ba6: 0x4875617765695465, // HuaweiTe
 	0xe04f43: 0x556e697665727361, // Universa
 	0xe04fbd: 0x5369636875616e54, // SichuanT
 	0xe0508b: 0x5a68656a69616e67, // Zhejiang
@@ -26797,6 +26844,7 @@ var oui = map[uint32]uint64{
 	0xe0dca0: 0x5369656d656e7349, // SiemensI
 	0xe0dcff: 0x5869616f6d69436f, // XiaomiCo
 	0xe0ddc0: 0x7669766f4d6f6269, // vivoMobi
+	0xe0e0c2: 0x4368696e614d6f62, // ChinaMob
 	0xe0e0fc: 0x4875617765694465, // HuaweiDe
 	0xe0e5cf: 0x5465786173496e73, // TexasIns
 	0xe0e62e: 0x5443546d6f62696c, // TCTmobil
@@ -27597,6 +27645,7 @@ var oui = map[uint32]uint64{
 	0xf0620d: 0x5368656e7a68656e, // Shenzhen
 	0xf06281: 0x50726f4375727665, // ProCurve
 	0xf063f9: 0x4875617765695465, // HuaweiTe
+	0xf06426: 0x45787472656d654e, // ExtremeN
 	0xf065c2: 0x59616e66656e6756, // YanfengV
 	0xf065dd: 0x5072696d6178456c, // PrimaxEl
 	0xf06728: 0x4775616e67646f6e, // Guangdon
@@ -27748,6 +27797,7 @@ var oui = map[uint32]uint64{
 	0xf0f6c1: 0x000000536f6e6f73, // Sonos
 	0xf0f755: 0x000000436973636f, // Cisco
 	0xf0f7b3: 0x00000050686f726d, // Phorm
+	0xf0f7e7: 0x4875617765695465, // HuaweiTe
 	0xf0f842: 0x00004b4545424f58, // KEEBOX
 	0xf0f8f2: 0x5465786173496e73, // TexasIns
 	0xf0f9f7: 0x0000000000494553, // IES
@@ -27769,6 +27819,7 @@ var oui = map[uint32]uint64{
 	0xf409d8: 0x53616d73756e6745, // SamsungE
 	0xf40a4a: 0x494e4455534e4554, // INDUSNET
 	0xf40b93: 0x426c61636b426572, // BlackBer
+	0xf40b9f: 0x4369675368616e67, // CigShang
 	0xf40e01: 0x0000004170706c65, // Apple
 	0xf40e11: 0x4945454552656769, // IEEERegi
 	0xf40e22: 0x53616d73756e6745, // SamsungE
@@ -28069,6 +28120,7 @@ var oui = map[uint32]uint64{
 	0xf835dd: 0x47656d74656b5465, // GemtekTe
 	0xf8369b: 0x5465786173496e73, // TexasIns
 	0xf83880: 0x0000004170706c65, // Apple
+	0xf83b1d: 0x546563686e69636f, // Technico
 	0xf83cbf: 0x426f7461746f456c, // BotatoEl
 	0xf83d4e: 0x536f66746c696e6b, // Softlink
 	0xf83dff: 0x4875617765695465, // HuaweiTe
@@ -28362,6 +28414,7 @@ var oui = map[uint32]uint64{
 	0xfc449f: 0x00000000007a7465, // zte
 	0xfc455f: 0x4a69616e67786953, // JiangxiS
 	0xfc4596: 0x436f6d70616c496e, // CompalIn
+	0xfc45c3: 0x5465786173496e73, // TexasIns
 	0xfc48ef: 0x4875617765695465, // HuaweiTe
 	0xfc492d: 0x416d617a6f6e5465, // AmazonTe
 	0xfc4ae9: 0x436173746c656e65, // Castlene
@@ -28389,6 +28442,7 @@ var oui = map[uint32]uint64{
 	0xfc62b9: 0x416c7073456c6563, // AlpsElec
 	0xfc643a: 0x53616d73756e6745, // SamsungE
 	0xfc64ba: 0x5869616f6d69436f, // XiaomiCo
+	0xfc65b3: 0x4875617765694465, // HuaweiDe
 	0xfc65de: 0x416d617a6f6e5465, // AmazonTe
 	0xfc66cf: 0x0000004170706c65, // Apple
 	0xfc683e: 0x4469726563746564, // Directed
@@ -28416,6 +28470,7 @@ var oui = map[uint32]uint64{
 	0xfc862a: 0x4875617765694465, // HuaweiDe
 	0xfc8743: 0x4875617765695465, // HuaweiTe
 	0xfc8b97: 0x5368656e7a68656e, // Shenzhen
+	0xfc8d3d: 0x4c65617066697665, // Leapfive
 	0xfc8e5b: 0x4368696e614d6f62, // ChinaMob
 	0xfc8e6e: 0x53747265616d4343, // StreamCC
 	0xfc8e7e: 0x415252495347726f, // ARRISGro
